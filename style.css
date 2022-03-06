@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+body {
+  background-color: #000;
+}
+.header {
+  padding-top: 10px;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.13);
+  border: 1px solid rgba(238, 237, 237, 0.2);
+}
+
+.header-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 400px;
+  color: #ffffff;
+}
+
+.header-item {
+  margin: 0 20px;
+}
+
+.background-images-left img {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  max-width: 650px;
+  max-height: 650px;
+}
+
+.background-images-right img {
+  position: absolute;
+  bottom: 0px;
+  right: 1px;
+}
+
+.main {
+  color: #ffffff;
+  margin-top: 200px;
+  margin-left: 580px;
+  margin-right: 382px;
+  z-index: 2;
+  width: 100%;
+  max-width: 600px;
+}
+
+.welcome {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+}
+
+.message {
+  margin-top: 70px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.main-buttons {
+  margin-left: 170px;
+  margin-right: 170px;
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-me {
+  background-color: #fdb827;
+  color: #000;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.blog {
+  background-color: rgba(255, 255, 255, 0.13);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.footer {
+  position: fixed;
+  left: 15px;
+  bottom: 20px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: 720px;
+}
+
+.icons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.icons img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
